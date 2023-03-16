@@ -7,8 +7,8 @@ The recommendation system predicts users' movie ratings based on their past beha
 ## Data
 The MovieLens dataset consists of two main files:
 
-**ratings.csv**: Contains user-movie interactions, including user IDs, movie IDs, and the corresponding ratings.
-**movies.csv**: Contains movie metadata, such as movie IDs, titles, and genres.
+- **ratings.csv**: Contains user-movie interactions, including user IDs, movie IDs, and the corresponding ratings.
+- **movies.csv**: Contains movie metadata, such as movie IDs, titles, and genres.
 In this project, I primarily use the ratings.csv file to build the recommendation system.
 
 ## Methodology
@@ -20,5 +20,5 @@ In this project, I primarily use the ratings.csv file to build the recommendatio
 - Make predictions on the test set and compute evaluation metrics (RMSE and MAE).
 
 ## Results
-The SVD-based recommendation system is evaluated using the root mean square error (RMSE) and mean absolute error (MAE) metrics. The model's performance can be further improved by fine-tuning the hyperparameters or trying other algorithms.
+The SVD-based recommendation system is evaluated using the root mean square error (RMSE) and mean absolute error (MAE) metrics. The model achieved the RMSE score of 0.8619 and the MAE score of 0.6614. The model's performance can be further improved by fine-tuning the hyperparameters or trying other algorithms.
 
