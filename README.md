@@ -19,6 +19,6 @@ In this project, I primarily use the ratings.csv file to build the recommendatio
 - Train the SVD model using the best hyperparameters on the trainset.
 - Make predictions on the test set and compute evaluation metrics (RMSE and MAE).
 
-##Results
+## Results
 The SVD-based recommendation system is evaluated using the root mean square error (RMSE) and mean absolute error (MAE) metrics. The model's performance can be further improved by fine-tuning the hyperparameters or trying other algorithms.
 
